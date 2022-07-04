@@ -13,7 +13,9 @@ public class LineEqualityCheck {
 	public void check(){
 		if(length1 == length2)
 			System.out.println("Lines are equal");
-		else
-			System.out.println("Lines are not equal");
+		else if (length1 > length2)
+			System.out.println("Line one is greater");
+		else if (length1 < length2)
+			System.out.println("Line two is greater");
 	}
 }
